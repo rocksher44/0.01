@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    background-color: grey;
+    height: 4rem;
+}
+.top p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 0.5rem;
+
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-nav{
+    color: white;
+}
+
+.hero{
+    /* background-image: url(./images.jpg); */
+    background-color: rgb(187, 186, 186);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ height: 70vh;
+}
+.hero h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 4rem;
+}
+.hero p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+.btn{
+    height: 3rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    margin-left: 42rem;
+    border-radius: 18px;
+}
+.btn:hover{
+    background-color:grey ;
+}
+
+
+.card{
+    display: flex;
+}
+.img img{
+    width: 20%;
+}
